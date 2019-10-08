@@ -1,4 +1,9 @@
 import '../styles/main.scss';
 import 'bootstrap';
+import grid from './components/grid/grid';
 
-console.error('yo');
+const init = () => {
+  grid.makeGrid();
+};
+
+init();
